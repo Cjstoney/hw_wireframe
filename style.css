@@ -20,11 +20,10 @@ body {
     margin: 10px;
 }
 
-#parent{
-    display: flex;
-}
+
 
 .section{
+    float:left;
     background-color: #ebebeb;
     text-align: center;
     width: 495px;
@@ -55,8 +54,10 @@ body {
 }
 
 .aside{
+    display: flex;
     float: right;
-    width: 400px;
+    width: 385px;
+    height: 160px;
     background-color: #ebebeb;
     text-align: center;
     padding: 10px;
@@ -64,8 +65,10 @@ body {
 }
 
 .footer{
+    float: left;
     background-color: #ebebeb;
     text-align: center;
     padding: 10px;
     margin: 10px;
+    width:920px;
 }
