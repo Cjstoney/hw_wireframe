@@ -6,69 +6,68 @@ body {
     font-size:18px;
 }
 
-.header {
+#header {
     text-align: center;
     background-color: #ebebeb;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
-.nav {
+#nav {
     background-color: #ebebeb;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
-
-
-.section{
+#section{
     float:left;
     background-color: #ebebeb;
     text-align: center;
     width: 495px;
-    padding: 10px;
-    margin: 10px;
+    height:240px;
+    padding:20px;
+    margin: 7px;
 }
 
-.article{
+#article{
     font-size:18px;
     color:#ebebeb;
     background-color:#777;
-    flex:1;
     border:3px solid #777;
+    padding-top:20px;
 }
 
-.headers_2{
+#headers_2{
     color: #777;
     background-color: #ebebeb;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    font-weight:bold;
 }
 
-.P{
+#P{
     color: #777;
     background-color: #ebebeb; 
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
-.aside{
-    display: flex;
+#aside{
     float: right;
-    width: 385px;
-    height: 160px;
+    width: 350px;
+    height: 240px;
     background-color: #ebebeb;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
+    text-align:center;
+    padding: 20px;
+    margin: 7px;
 }
 
-.footer{
+#footer{
     float: left;
     background-color: #ebebeb;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
-    width:920px;
+    width:905px;
 }
